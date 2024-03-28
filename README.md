@@ -9,6 +9,12 @@
     </h2>
 </div>
 
+
+
+https://github.com/wljungbergh/NeuroNCAP/assets/37999571/5c7d90ef-714e-4c28-8bc6-71939365425e
+
+
+
 This is the official repository for NeuroNCAP: Photorealistic Closed-loop Safety Testing for Autonomous Driving
 
 Code will be released soon!
