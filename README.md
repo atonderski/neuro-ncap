@@ -17,4 +17,4 @@ https://github.com/wljungbergh/NeuroNCAP/assets/37999571/5725e2af-8215-4573-9372
 
 This is the official repository for NeuroNCAP: Photorealistic Closed-loop Safety Testing for Autonomous Driving
 
-Code will be released soon!
+Code will be released soon! In the mean time, see more examples on [our project page](https://research.zenseact.com/publications/neuro-ncap/).
