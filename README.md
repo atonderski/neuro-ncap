@@ -3,15 +3,15 @@
     <br/>
     <br/>
     <a href="https://research.zenseact.com/publications/neuro-ncap/"><img src="https://img.shields.io/badge/Project-Page-ffa"/></a>
-    <!-- <a href="https://arxiv.org/abs/2311.15260">
-        <img src='https://img.shields.io/badge/arXiv-Page-aff'>
-    </a> -->
+    <a href="https://arxiv.org/abs/2404.07762"><img src='https://img.shields.io/badge/arXiv-Page-aff'></a>
     </h2>
 </div>
 
 
 
-https://github.com/wljungbergh/NeuroNCAP/assets/37999571/5c7d90ef-714e-4c28-8bc6-71939365425e
+
+https://github.com/wljungbergh/NeuroNCAP/assets/37999571/5725e2af-8215-4573-9372-c0ca8c03f5f0
+
 
 
 
