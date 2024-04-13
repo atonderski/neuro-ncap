@@ -22,8 +22,5 @@ The code will be released soon! In the meantime, see more examples on [our proje
 
 
 ## News <a name="news"></a>
-- **`2024/04/12`** NeuroNCAP [paper](https://arxiv.org/abs/2404.07762) published on on arXiv.
+- **`2024/04/12`** NeuroNCAP [paper](https://arxiv.org/abs/2404.07762) published on arXiv.
 
-
-## TODO List <a name="todos"></a>
-- [] Code release
