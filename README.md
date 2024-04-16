@@ -20,7 +20,11 @@ This is the official repository for NeuroNCAP: Photorealistic Closed-loop Safety
 The code will be released soon! In the meantime, see more examples on [our project page](https://research.zenseact.com/publications/neuro-ncap/).
 
 
-
 ## News <a name="news"></a>
 - **`2024/04/12`** NeuroNCAP [paper](https://arxiv.org/abs/2404.07762) published on arXiv.
 
+## Related resources
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+- [NeuRAD](https://github.com/georghess/neurad) (:rocket:Ours!)
+- [UniAD](https://github.com/OpenDriveLab/UniAD)
+- [VAD](https://github.com/hustvl/VAD)
