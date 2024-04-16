@@ -25,6 +25,6 @@ The code will be released soon! In the meantime, see more examples on [our proje
 
 ## Related resources
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-- [NeuRAD](https://github.com/georghess/neurad) (:rocket:Ours!)
+- [NeuRAD](https://github.com/georghess/neurad)
 - [UniAD](https://github.com/OpenDriveLab/UniAD)
 - [VAD](https://github.com/hustvl/VAD)
