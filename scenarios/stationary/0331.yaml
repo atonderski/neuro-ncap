@@ -1,0 +1,27 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 24
+  time-step: 0.5
+  priming-steps: 2
+  duration: 10.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - mode: "override"
+    uuids:
+      - 7726b2abf5a64594a9c5410c7a1ab3be  # truck (first)
+      - 488d2d8fcd104fffb4bea587fa465a88  # truck (second)
+      - 0a8b9192e2e04ac9a4c8acddda98356e  # car (third)
+    times: [0.0, 20.0]
+    is_target_actor: true
+    initial-yaw: -0.5
+    positions:
+      - [1791, 1136, -0.05]
+      - [1791, 1136, -0.05]
+    jitter:
+      longitudinal: 7
+      lateral: 1.5
+      long-lat-angle: -2.5
+      yaw-jitter: 0.7

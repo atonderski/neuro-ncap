@@ -1,0 +1,29 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 6
+  time-step: 0.5
+  priming-steps: 2
+  duration: 8.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - mode: "override"
+    uuids:
+      - 7967a59179bc4ffdbbb798095b6166d2  # oncoming vehicle.car
+      - 087bb99327cd49c5b9eba52bda1b000a  # oncoming vehicle.truck
+      - 867b0217fb5544ccb4d459c901b8c1ad  # oncoming vehicle.car
+      - c9e833abdada416ebcf29b607637a62e  # oncoming vehicle.car
+      - 55c64d36616a4a91a40007080810c13e  # oncoming vehicle.car
+    times: [2.0, 12.0, 22.0]
+    is_target_actor: true
+    positions:
+      - [1662.8, 1008.1, 0.0]
+      - [1736.6, 943.1, 0.0]
+      - [1762.3, 921.7, 0.0]
+    jitter:
+      times: [0.0, 5.0, 0.0]  # essentially changing the velocity by 0.5x-1.5x
+      longitudinal: 10.0
+      lateral: 1.0
+      long-lat-angle: 2.36

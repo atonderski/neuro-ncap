@@ -1,0 +1,29 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 4
+  time-step: 0.5
+  priming-steps: 2
+  duration: 8.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - mode: "override"
+    uuids:
+      - a2793970fe18491d8f005f68527642e1  # oncoming bus
+      - 010f92362ded4aaf8850ba15dde76ab1  # oncoming 2
+      - 47bcb414e6a942a59de6118e2d17d7e9  # oncoming 3
+      - ee40de1acf714393b3e63a6a573765b2  # oncoming 4
+    flip-uuids: []
+    times: [-2.0, 5.0, 12.0]
+    is_target_actor: true
+    positions:
+      - [2050.0, 973.0, 0.0]
+      - [2000.0, 1001.5, 0.0]
+      - [1950.0, 1032.5, 0.0]
+    jitter:
+      times: [0.0, 1.0, 1.0]
+      longitudinal: 5.0
+      lateral: 0.50
+      long-lat-angle: -0.7

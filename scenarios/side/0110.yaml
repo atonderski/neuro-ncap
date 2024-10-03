@@ -1,0 +1,29 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 10
+  time-step: 0.5
+  priming-steps: 2
+  duration: 8.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - mode: "override"
+    uuids:
+      - 4ca1f38088c74e60b65d871d99cce3df  # from parking 1
+      # - 7cc1e5c004014bde945ee1f51bb76330  # from parking 2
+    times: [0.0, 6.0, 7.5, 20, 30.0]
+    is_target_actor: true
+    initial-yaw: 0.87
+    positions:
+      - [1976.1, 1004.8, 0.0]
+      - [1976.1, 1004.8, 0.0]
+      - [1978.9, 1007.8, 0.0]  # 15% between point A and B
+      - [1995.0, 1025.0, 0.0]
+      - [1995.0, 1025.0, 0.0]
+    jitter:
+      times: [0.0, 1.0, 1.0, 0.0]
+      longitudinal: 1.0
+      lateral: 0.5
+      long-lat-angle:  0.87

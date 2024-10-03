@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuro-ncap"
+version = "0.0.1"
+description = "Neuro-NCAP: Neural Simulation for closed-loop evaluation of AD systems."
+readme = "README.md"
+license = { text="MIT"}
+requires-python = ">=3.8.0,<3.12"
+dependencies = [
+    "nuscenes-devkit==1.1.11",
+    "torch==2.1",
+    "websocket-client==1.5",
+    "httpx==0.25",
+    "tyro==0.6.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit==3.6.0",
+    "ruff==0.1.13",
+    "pytest==8",
+]
+
+[tool.setuptools.packages.find]
+include = ["neuro_ncap*"]
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+select = [
+    "ALL",  # All checks
+]
+ignore = [
+    "INP001",  # Implicit namespace packages
+    "D",       # Docstring checks
+    "TD002",   # TODO author
+    "TD003",   # TODO issue link
+    "ANN101",  # Missing type annotation for `self`
+    "ANN002",  # Missing type annotation for *args
+    "ANN003",  # Missing type annotation for **kwargs
+    "ANN401",  # Any type is not allowed
+    "FIX",     # Forbids TODO, FIXME, etc.
+    "T201",    # Forbids print statements
+    "TRY003",  # Forbids long exception messages
+    "EM101",   # Exception must not use raw strings
+    "EM102",   # Exception must not use fstrings
+    "COM812",  # Forbids trailing commas in function calls
+    "ERA001",  # Forbids use of commented out code
+    "FBT001",  # Boolean-typed positional argument in function definition
+    "FBT002",  # Boolean default positional argument in function definition
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

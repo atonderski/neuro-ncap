@@ -1,0 +1,26 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 25
+  time-step: 0.5
+  priming-steps: 2
+  duration: 10.0
+  smooth-actors: true
+  start-jitter: 2
+
+actors:
+  - mode: "override"
+    uuids:
+      - 14b40ff3cc064816b0a677dfa83e34cf  # first oncoming
+      - 930b8188b129425192068e47440d4206  # second oncoming
+    times: [0.0, 20.0]
+    is_target_actor: true
+    initial-yaw: 2.62
+    positions:
+      - [563.9, 841.75, 0.0]
+      - [563.9, 841.75, 0.0]
+    jitter:
+      longitudinal: 5.0
+      lateral: 1.0
+      long-lat-angle: 2.62
+      yaw-jitter: 0.5

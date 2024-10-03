@@ -1,0 +1,28 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 8
+  time-step: 0.5
+  priming-steps: 2
+  duration: 8.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - mode: "override"
+    uuids:
+      - 7146422ff97d46ec87f995298f71a3ae  # red car to the right
+      - 3195d4ee50bc4e78af711734a63ae9d1  # oncoming fourth (pickup)
+    flip-uuids:
+      - 3195d4ee50bc4e78af711734a63ae9d1  # oncoming lane
+    times: [0.0, 20.0]
+    is_target_actor: true
+    initial-yaw: 0.52
+    positions:
+      - [1070, 1382, 0.0]
+      - [1070, 1382, 0.0]
+    jitter:
+      longitudinal: 10.0
+      lateral: 1.0
+      long-lat-angle: 0.2
+      yaw-jitter: 0.5

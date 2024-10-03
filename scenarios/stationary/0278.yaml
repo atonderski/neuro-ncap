@@ -1,0 +1,25 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 18
+  time-step: 0.5
+  priming-steps: 2
+  duration: 10.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - mode: "override"
+    uuids:
+      - c68d42ec92594eaf94b5dcd20c3b8ba5  # motorcyclist
+    times: [0.0, 20.0]
+    is_target_actor: true
+    initial-yaw: 3.27
+    positions:
+      - [333.9, 705.8, 0.0]
+      - [333.9, 705.8, 0.0]
+    jitter:
+      longitudinal: 10.0
+      lateral: 1.0
+      long-lat-angle: -0.8
+      yaw-jitter: 0.7

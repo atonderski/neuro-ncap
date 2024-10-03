@@ -1,0 +1,27 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 8
+  time-step: 0.5
+  priming-steps: 2
+  duration: 7.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - uuids:
+      - dc762bf1bc694d3e8141bf592f9b1456  # black turning into our lane
+    mode: "override"
+    times: [3.0, 10.0, 20.0]
+    is_target_actor: true
+    initial-yaw: -2.1  # after stop
+    positions:
+      - [665.0, 1620.0, -0.05]
+      - [655.0, 1600.0, -0.05]
+      - [655.0, 1600.0, -0.05]
+    jitter:
+      # times: [0.0, 0.0, 0.0, 0.0]
+      longitudinal: 1.0
+      lateral: 1.0
+      long-lat-angle: -2.1  # confirmed
+      yaw-jitter: 0.0

@@ -1,0 +1,12 @@
+ArrayTaskID     SeqNum
+1               0099
+2               0101
+3               0103
+4               0106
+5               0108
+6               0278
+7               0331
+8               0783
+9               0796
+10              0966
+11              0061  # mini set (do not use for eval)

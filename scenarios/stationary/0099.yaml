@@ -1,0 +1,30 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 0
+  time-step: 0.5
+  priming-steps: 2
+  duration: 10.0
+  smooth-actors: true
+  start-jitter: 0
+
+actors:
+  - uuids:
+      - bba914e1b38143d18346f0dfe9751b90  # overtaking black car (use this?)
+      - f6049c699428429ebd95652681f83fdd  # black car starting front left
+      - df93532381c7409abca8b75dd4628cd7  # overtaking silver car
+      - 7865b4d643bc434497acc5f4171e31c1  # opposing lane car
+    flip-uuids:
+      - 7865b4d643bc434497acc5f4171e31c1  # opposing lane
+    mode: "override"
+    is_target_actor: true
+    times: [0.0, 20.0]
+    initial-yaw: 2.27
+    positions:
+      - [718.643, 1436.0, -0.25]
+      - [718.643, 1436.0, -0.25]
+    jitter:
+      longitudinal: 6.0
+      lateral: 0.5
+      long-lat-angle: 2.62
+      yaw-jitter: 0.5

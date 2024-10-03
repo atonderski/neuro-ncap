@@ -1,0 +1,25 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 8
+  time-step: 0.5
+  priming-steps: 2
+  duration: 8.0
+  smooth-actors: true
+
+actors:
+  - mode: "override"
+    uuids:
+      - 9c5151b34911482f8155ab55c3f5d32f  # oncoming black car (first)
+      - f3995943006145ca8a7bc375527f0aba  # oncoming silver (second)
+      - 2cc84e32d40647b185276f8d7baf5322  # oncoming black (third)
+    times: [3.5, 8.0, 14.0]
+    is_target_actor: true
+    positions:
+      - [680.0, 1585.0, 0.0]
+      - [660.0, 1600.5, 0.0]
+      - [640.0, 1617.0, 0.0]
+    jitter:
+      longitudinal: 10.0
+      lateral: 0.75
+      long-lat-angle: -0.8

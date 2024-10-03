@@ -1,0 +1,26 @@
+# This scenario is a stationary scenario with a single actor. Here we are setting the
+# actor to be stationary just at the start of the crosswalk.
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 1
+  time-step: 0.5
+  priming-steps: 2
+  duration: 10.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - mode: "override"
+    uuids:
+      - c68d42ec92594eaf94b5dcd20c3b8ba5  # motorcycle
+    times: [0.0, 5.5, 11.0]
+    is_target_actor: true
+    positions:
+      - [315.0, 736.0, 0.0]
+      - [309.3, 733.7, 0.0]
+      - [302.6, 729.4, 0.0]
+    jitter:
+      longitudinal: 0.5
+      lateral: 0.5
+      long-lat-angle: 3.6

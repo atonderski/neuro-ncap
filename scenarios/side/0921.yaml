@@ -1,0 +1,27 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 6
+  time-step: 0.5
+  priming-steps: 3
+  duration: 8.0
+  smooth-actors: true
+  start-jitter: 0
+
+actors:
+  - mode: "override"
+    exclusive_group: "1"
+    uuids:
+      - 616862af032e4c6aa73fb4da5a97d553  # silver car
+      #- b78750237c66467b9cb4c24ec3c4398e  # truck turning left
+    times: [-5.0, 8.0, 19.0]
+    is_target_actor: true
+    positions:
+      - [1229.6, 1183.6, -1.8]
+      - [1310.2, 1215.3, -0.39]
+      - [1376.9, 1224.5, 0.3]
+    jitter:
+      times: [0.0, 1.0, 0.0]
+      longitudinal: 2.0
+      lateral: 0.75
+      long-lat-angle: 0.17

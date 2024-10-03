@@ -1,0 +1,27 @@
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 4
+  time-step: 0.5
+  priming-steps: 2
+  duration: 8.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - mode: "override"
+    uuids:
+      - d60c90d8f5b44c409922dbb17b66a682  # oncoming second (white)
+      - 507a3ec653724357a58381a2d773adb3  # oncoming third (black)
+      - 3195d4ee50bc4e78af711734a63ae9d1  # oncoming fourth (pickup)
+    times: [-1.0, 6.0, 15.0]
+    is_target_actor: true
+    positions:
+      - [1100.0, 1387.5, 0.0]
+      - [1050.0, 1379.5, 0.0]
+      - [1000.0, 1375.0, 0.0]
+    jitter:
+      times: [0.0, 2.0, 0.0]
+      longitudinal: 10.0
+      lateral: 0.75
+      long-lat-angle: 0.2

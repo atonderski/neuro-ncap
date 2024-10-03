@@ -1,0 +1,27 @@
+# This scenario is a stationary scenario with a single actor. Here we are setting the
+# actor to be stationary just at the start of the crosswalk.
+general:
+  start-pose: "original"
+  start-velo: "original"
+  start-frame: 0
+  time-step: 0.5
+  priming-steps: 2
+  duration: 10.0
+  smooth-actors: true
+  start-jitter: 1
+
+actors:
+  - uuid: c1958768d48640948f6053d04cffd35b  # white car/van that turns left (with us)
+    mode: "override"
+    times: [0.0, 20.0]
+    initial-yaw: -1.43
+    positions:
+      - [396.706, 1126.176, 0.85]
+      - [396.706, 1126.176, 0.85]
+  - uuid: a60047adc78a4b6895702e86b6d2fe88  # car to the right of us
+    mode: "override"
+    times: [0.0, 20.0]
+    initial-yaw: -2.71
+    positions:
+      - [390., 1135., 1.0]
+      - [390., 1135., 1.0]
