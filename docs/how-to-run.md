@@ -25,8 +25,8 @@ In the project we have three seperate repositories, namely the `rendering (neura
 Given that you have already cloned this repository, and currently standing in the root of the `neuro-ncap` repository, you can clone the other repositories by running the following commands:
 
 ```bash
-git clone git@github.com:georghess/neurad-studio.git ../neurad-studio
-git clone git@github.com:wljungbergh/UniAD.git ../UniAD
+git clone https://github.com/georghess/neurad-studio.git ../neurad-studio
+git clone https://github.com/wljungbergh/UniAD.git ../UniAD
 # (and download weights according to UniAD README)
 ```
 
